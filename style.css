@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    /* background-color: #000; */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+    color: white;
+}
+
+.light{
+    color: #fff;
+}
+
+/* Navigation */
+
+nav{
+    background-color: #48AFFF;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    /* margin-bottom: 12px; */
+    padding: 2px 0;
+
+}
+.logo_container{
+    margin: 10px 0;
+}
+
+.priceoye{
+    width: 150px;
+    padding-left: 10px;
+
+}
+
+
+.logo{
+    width: 30px;
+}
+
+
+.mic{
+    position: relative;
+    left: -35px;
+}
+
+input[type=text] {
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px; /* Adding border radius */
+    width: 400px;
+  }
+
+.bg-pink{
+    background-color: #F83E87;
+    height: 30vh;
+}
+
+.section1_heading{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
